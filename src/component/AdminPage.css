@@ -1,0 +1,48 @@
+/* Admin 페이지 스타일 */
+.admin {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 전체 높이 */
+    width: 90vw; /* 화면 전체 너비 */
+    background-color: #eef2f7; /* 밝은 배경색 */
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box; /* 패딩 포함 계산 */
+    padding: 20px; /* 화면 여백 */
+    overflow: hidden; /* 스크롤 방지 */
+}
+
+.admin h1 {
+    font-size: 48px; /* 큰 글씨 크기 */
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.admin p {
+    font-size: 20px;
+    color: #34495e;
+    text-align: center;
+    max-width: 800px; /* 텍스트 너비 제한 */
+    line-height: 1.6;
+}
+
+.admin .logout-button {
+    margin-top: 40px;
+    padding: 15px 30px; /* 큰 버튼 크기 */
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px; /* 둥근 모서리 */
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.admin .logout-button:hover {
+    background-color: #2980b9; /* 호버 색상 */
+    transform: scale(1.05); /* 약간 확대 */
+}

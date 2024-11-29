@@ -1,0 +1,69 @@
+/* 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* 배경 색상 */
+}
+
+/* 로그인 컨테이너 */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* 시작점에서 정렬 */
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding-top: 10%; /* 상단 여백 추가 */
+}
+
+/* 제목 */
+.login-title {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 입력 필드 */
+.login-input {
+    width: 100%;
+    max-width: 400px; /* 입력 필드 최대 너비 */
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: #2196F3;
+}
+
+/* 버튼 */
+.login-button {
+    width: 80%;
+    max-width: 400px; /* 버튼 최대 너비 */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #1976D2;
+}

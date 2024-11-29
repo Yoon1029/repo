@@ -1,0 +1,52 @@
+.userList {
+    flex: 4;
+    padding: 20px;
+    background-color: #f4f6f8;
+    border-radius: 10px;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+  .userListEdit,
+  .userListDelete {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .userListEdit {
+    background-color: #3bb077;
+    color: white;
+  }
+  
+  .userListDelete {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(203, 1, 1);
+    color: white;
+    cursor: pointer;
+    margin-right: 15px;
+}
