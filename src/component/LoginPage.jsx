@@ -7,6 +7,7 @@ const LoginPage = () => {
 
   const [admin_id, setUsername] = useState("");
   const [admin_password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
   const usernameInputRef = useRef(null);

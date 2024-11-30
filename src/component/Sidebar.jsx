@@ -3,14 +3,12 @@ import { Home, Users, FileText } from 'lucide-react';
 import './Sidebar.css';
 
 const Sidebar = () => {
-  // 메뉴 아이템 정의
   const menuItems = [
     { icon: Home, label: '홈', href: '/' },
     { icon: Users, label: '사용자 관리', href: '/users' },
     { icon: FileText, label: '피드', href: '/feed' }
   ];
 
-  // 현재 활성화된 메뉴 확인
   const isActive = (path) => window.location.pathname === path;
 
   return (
